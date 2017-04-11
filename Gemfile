@@ -23,6 +23,28 @@ gem 'jbuilder', '2.5.0'
 # gem 'bcrypt', '3.1.7'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+#Twitter boostrap gem
+gem 'bootstrap-sass', '3.3.7'
+
+#Font Awesome Gem
+gem 'font-awesome-sass', '4.6.2'
+
+#Hirb for database display in console
+gem 'hirb', '0.7.3'
+
+#Devis for user profiles
+gem 'devise', '4.2.0'
+
+#Stripe for credit card
+gem 'stripe', '1.48.0'
+
+#Figaro gem
+gem 'figaro', '1.1.1'
+
+#Paperclip for images
+gem 'paperclip', '4.3.6'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
