@@ -1,4 +1,22 @@
 <div class="home-callout text-center container-fluid">
   <h1>Welcome to GameConnect</h1>
-  <h3>A website where you can find friendly players to play with.</h3>
+  <h3>A Website where gamers meet.</h3>
+</div>
+<div class="container home-signup-links">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="well">
+        <h2 class="text-center">Basic Membership</h2>
+        <h4>Sign up for free now and get access to the best gaming community.</h4>
+        <%= link_to "Sign up with Basic", new_user_registration_path(plan: @basic_plan.id), class: 'btn btn-primary btn-lg btn-block' %>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="well">
+        <h2 class="text-center">Pro Membership</h2>
+        <h4>Sign up for a pro account for $7 a month and get access to the community and their contact information!</h4>
+        <%= link_to "Sign up with Pro", new_user_registration_path(plan: @pro_plan.id), class: 'btn btn-success btn-lg btn-block' %>
+      </div>
+    </div>
+  </div>
 </div>
