@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+# The Website link is http://warm-beach-72417.herokuapp.com/
 
-* Ruby version
+# Please sign up with a pro membership so you can view the full website
 
-* System dependencies
+# For Credit card info please copy and paste this.
 
-* Configuration
+# 4111111111111111 (Credit Card number)
 
-* Database creation
+# 123 (CVC)
 
-* Database initialization
+# Jan 2020 (Exp Year)
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Thank you for  visiting.
